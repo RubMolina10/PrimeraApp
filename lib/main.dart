@@ -125,9 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
           onPressed: minCounter,
           tooltip: 'NotIncrement',
-          child: const Icon(
-            Icons.line_style,
-          )),
+          child: const Icon(Icons.local_activity)),
       /*floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
